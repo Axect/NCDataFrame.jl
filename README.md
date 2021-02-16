@@ -60,7 +60,8 @@ dg[!,:x] |> skipmissing |> collect  # Remove missing from x
 
 ## References
 
-NCDataFrame.jl uses two packages inside.
+NCDataFrame.jl uses below packages inside.
 
 * [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl)
 * [NCDatasets.jl](https://github.com/Alexander-Barth/NCDatasets.jl)
+* [Missings.jl](https://github.com/JuliaData/Missings.jl)
