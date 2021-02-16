@@ -2,6 +2,14 @@
 
 Read & write NetCDF file via [DataFrames](https://github.com/JuliaData/DataFrames.jl).
 
+## Install
+
+```julia
+using Pkg
+
+Pkg.add(url="https://github.com/Axect/NCDataFrame.jl")
+```
+
 ## Read
 
 ```julia
