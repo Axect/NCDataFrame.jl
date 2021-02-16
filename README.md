@@ -33,7 +33,7 @@ df[!,:y] = 'a':'j'
 writenc(df, "data.nc")
 ```
 
-## Credits
+## References
 
 NCDataFrame.jl uses two packages inside.
 
