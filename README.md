@@ -2,7 +2,9 @@
 
 Read & write NetCDF file via [DataFrames](https://github.com/JuliaData/DataFrames.jl).
 
-## Install
+## Manual
+
+### Install
 
 ```julia
 using Pkg
@@ -10,7 +12,7 @@ using Pkg
 Pkg.add(url="https://github.com/Axect/NCDataFrame.jl")
 ```
 
-## Read
+### Read
 
 ```julia
 using NCDataFrame
@@ -18,7 +20,7 @@ using NCDataFrame
 df = readnc("data.nc") # DataFrame
 ```
 
-## Write
+### Write
 
 ```julia
 using NCDataFrame
@@ -30,3 +32,10 @@ df[!,:y] = 'a':'j'
 
 writenc(df, "data.nc")
 ```
+
+## Credits
+
+NCDataFrame.jl uses two packages inside.
+
+* [DataFrames.jl](https://github.com/JuliaData/DataFrames.jl)
+* [NCDatasets.jl](https://github.com/Alexander-Barth/NCDatasets.jl)
