@@ -1,4 +1,4 @@
-# NCDataFrame
+# NCDataFrame.jl
 
 Read & write NetCDF file via [DataFrames](https://github.com/JuliaData/DataFrames.jl).
 
@@ -15,7 +15,7 @@ Pkg.add(url="https://github.com/Axect/NCDataFrame.jl")
 ```julia
 using NCDataFrame
 
-df = readnc("data.nc")
+df = readnc("data.nc") # DataFrame
 ```
 
 ## Write
