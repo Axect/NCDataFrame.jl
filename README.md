@@ -33,6 +33,16 @@ df[!,:y] = 'a':'j'
 writenc(df, "data.nc")
 ```
 
+## Tips for different length vectors
+
+```julia
+using NCDataFrame
+using DataFrames
+
+df = DataFrame()
+
+```
+
 ## References
 
 NCDataFrame.jl uses two packages inside.
