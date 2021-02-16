@@ -1,0 +1,12 @@
+name = "NCDataFrame"
+uuid = "419ca8c6-2b20-4634-9f6c-b2c5f1429aea"
+keywords = ["netcdf", "dataframe"]
+desc = "Read and write NetCDF files via DataFrames"
+authors = ["Axect <axect@outlook.kr>"]
+version = "0.1.0"
+
+[deps]
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+NCDatasets = "85f8d34a-cbdd-5861-8df4-14fed0d494ab"
+NetCDF = "30363a11-5582-574a-97bb-aa9a979735b9"
