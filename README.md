@@ -9,7 +9,7 @@ Read & write NetCDF file via [DataFrames](https://github.com/JuliaData/DataFrame
 ```julia
 using Pkg
 
-Pkg.add(url="https://github.com/Axect/NCDataFrame.jl")
+Pkg.add("NCDataFrame")
 ```
 
 ### Read
