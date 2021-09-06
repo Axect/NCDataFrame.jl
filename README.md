@@ -70,9 +70,11 @@ You can solve it by following procedures.
 
 1. Install `libnetcdf`
 2. `cd $HOME/.julia/artifacts/0a7f440ba143b238cc3dd0def2956d34d76755f3/lib/`
-3. `ln -s /usr/lib/libnetcdf.so $PWD/libnetcdf.so`
-4. `ln -s /usr/lib/libnetcdf.so.18 $PWD/libnetcdf.so.18`
-5. In julia, `using NCDataFrame` than finish!
+3. `unlink libnetcdf.so`
+4. `unlink libnetcdf.so.18`
+5. `ln -s /usr/lib/libnetcdf.so $PWD/libnetcdf.so`
+6. `ln -s /usr/lib/libnetcdf.so.18 $PWD/libnetcdf.so.18`
+7. In julia, `using NCDataFrame` than finish!
 
 ## References
 
